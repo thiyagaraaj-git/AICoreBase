@@ -61,5 +61,4 @@ dependencies {
 
     implementation("com.google.mlkit:genai-prompt:1.0.0-beta2")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.2")
-    implementation("com.google.mlkit:genai-speech-recognition:1.0.0-alpha01")
 }
