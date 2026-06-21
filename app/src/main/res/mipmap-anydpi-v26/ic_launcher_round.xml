@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (C) 2026 The Android Open Source Project
   ~
@@ -13,18 +14,8 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp"
-    android:height="108dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24"
-    android:tint="#000000">
-  <group android:scaleX="0.58"
-      android:scaleY="0.58"
-      android:translateX="5.04"
-      android:translateY="5.04">
-    <path
-        android:fillColor="@android:color/white"
-        android:pathData="M12,2.02c-5.51,0 -9.98,4.47 -9.98,9.98s4.47,9.98 9.98,9.98 9.98,-4.47 9.98,-9.98S17.51,2.02 12,2.02zM11.48,20v-6.26H8L13,4v6.26h3.35L11.48,20z"/>
-  </group>
-</vector>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background"/>
+    <foreground android:drawable="@drawable/ic_launcher_foreground"/>
+    <monochrome android:drawable="@drawable/ic_launcher_foreground"/>
+</adaptive-icon>
